@@ -44,7 +44,7 @@ fleece encode -i my_file.json -o output.bson --endian little
 
 ### Endianness
 
-When decoding, the tool defaults to `auto` to detect the endianness based on the BSON version header. You can manually override this if necessary:
+When decoding, the tool defaults to `auto` to detect the endianness based on the BSON header. You can manually override this if necessary:
 
 ```
 fleece decode -i my_file.bson -o output.json --endian big
