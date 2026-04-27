@@ -55,5 +55,5 @@ fleece decode -i my_file.bson -o output.json --endian big
 When encoding, the default BSON version is `3`. You can specify a different version with the `-v` or `--version` flags.
 
 ```
-fleece encode -i my_file.json -o output.bson --bson-version 3
+fleece encode -i my_file.json -o output.bson --version 3
 ```
